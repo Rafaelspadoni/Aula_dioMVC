@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula_dio", "Aula_dio.csproj", "{C872C428-F4E7-4FA3-87F6-4C228E57A89E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aula_dio", "Aula_dio.csproj", "{C872C428-F4E7-4FA3-87F6-4C228E57A89E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca_backend", "..\..\..\..\..\..\projetos\Testes\Drcash\Biblioteca_backend\Biblioteca_backend.csproj", "{20E4CFDD-BD09-4957-AC18-0CF119D20910}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C872C428-F4E7-4FA3-87F6-4C228E57A89E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C872C428-F4E7-4FA3-87F6-4C228E57A89E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C872C428-F4E7-4FA3-87F6-4C228E57A89E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E4CFDD-BD09-4957-AC18-0CF119D20910}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E4CFDD-BD09-4957-AC18-0CF119D20910}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E4CFDD-BD09-4957-AC18-0CF119D20910}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E4CFDD-BD09-4957-AC18-0CF119D20910}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
