@@ -10,8 +10,9 @@ namespace Aula_dio.Models
     {
         public int Id { get; set; }
 
-        public string descricao { get; set; }
         [Display(Name = "Descrição")]
+        public string descricao { get; set; }
+        
 
         public int quantidade { get; set; }
 
