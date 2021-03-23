@@ -9,9 +9,9 @@ namespace Aula_dio.Models
     public class Categoria
     {
         public int Id { get; set; }
-        public string Descricao { get; set; }
         [Display(Name = "Descrição")]
+        [Required(ErrorMessage = "o campo descrição é obrigatorio")]
+        public string Descricao { get; set; }
 
-        public List<Produto> Produtos { get; set; }
     }
 }

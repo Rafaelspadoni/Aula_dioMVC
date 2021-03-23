@@ -12,10 +12,9 @@ namespace Aula_dio.Models
 
         [Display(Name = "Descrição")]
         public string descricao { get; set; }
-        
-
+        [Range(1, 10, ErrorMessage = "Valor fora de faixa")]
         public int quantidade { get; set; }
-
+        
         public int CategoriaId { get; set; }
 
         public Categoria Categoria {get; set;}
